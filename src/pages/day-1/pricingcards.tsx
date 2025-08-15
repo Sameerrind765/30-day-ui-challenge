@@ -10,8 +10,7 @@ const PricingCards = () => {
       period: "/month",
       description: "Perfect For Small Teams",
       buttonText: "Start Hiring",
-      buttonStyle: "bg-gray-800 text-white hover:bg-gray-900",
-      cardStyle: "linear-gradient(90deg, #efefef, #eeeeee);",
+      cardStyle: "linear-gradient(90deg, #efefef, #eeeeee)",
       features: [
         "3 Projects",
         "AI Applicant Screening",
@@ -24,8 +23,7 @@ const PricingCards = () => {
       period: "/month",
       description: "Perfect For Growing Teams",
       buttonText: "Start Hiring",
-      buttonStyle: "bg-gray-800 text-white hover:bg-gray-900",
-      cardStyle: "linear-gradient(90deg, #dad7f1, #d5dcf1, #d1e0f0);",
+      cardStyle: "linear-gradient(90deg, #dad7f1, #d5dcf1, #d1e0f0)",
       features: [
         "Unlimited Projects",
         "AI Applicant Screening",
@@ -39,8 +37,7 @@ const PricingCards = () => {
       period: "",
       description: "For Large Organizations",
       buttonText: "Contact Us",
-      buttonStyle: "bg-gray-800 text-white hover:bg-gray-900",
-      cardStyle: "linear-gradient(90deg, #efefef, #eeeeee);",
+      cardStyle: "linear-gradient(90deg, #efefef, #eeeeee)",
       features: [
         "Unlimited Projects",
         "AI Applicant Screening",
@@ -68,12 +65,11 @@ const PricingCards = () => {
           {plans.map((plan, index) => (
             <div
               key={index}
-              style={{ backgroundColor: plan.cardStyle }}
               className={`price-cards rounded-3xl shadow-sm flex flex-col h-full gap-11 pb-[73px]`}
             >
               {/* Plan Name */}
               <div className="bg-white p-3.5 rounded-[30px] card-header">
-                <div className="price-section" style={{background: plan.cardStyle}}>
+                <div className="price-section" style={{ background: plan.cardStyle }}>
                   <h3 className="text-[12px] font-extrabold flex bg-white px-4 w-fit text-center justify-center h-[27px] items-center rounded-2xl text-gray-800 mb-6">
                     {plan.name}
                   </h3>
@@ -97,7 +93,7 @@ const PricingCards = () => {
                 </p>
 
                 {/* CTA Button */}
-                <button className={`${plan.buttonStyle} w-full py-4 px-6 rounded-full font-medium text-lg transition-colors duration-200 font-inter`}>
+                <button className={`text-white w-full py-4 px-6 rounded-full font-meduim text-lg transition-colors duration-200 font-inter`}>
                   {plan.buttonText}
                 </button>
               </div>

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
+
 #pricing-cards {
     background-color: #f4f4f4;
     font-family: "Geist", sans-serif;
@@ -12,7 +18,7 @@
 .price-cards {
     min-width: 353px;
     border-radius: 37px;
-    background: linear-gradient(180deg, #e3e3e3 0%, #e3e3e3 30%, #FFFFFF 100%);
+    background: linear-gradient(180deg, #fff 0%, #e3e3e3 30%, #FFFFFF 100%);
 }
 
 .price-section {
@@ -33,11 +39,8 @@ button {
     font-weight: 400;
 }
 
-/* 
-    {
-    background: white;
-    display: flex;
-    border-radius: 70px;
-    padding: 1px 13px;
-    width: fit-content;
-} */
+button:hover {
+    background: linear-gradient(180deg, #474747 10%, #000000 50%, #090909 100%);
+    font-size: 18.1px;
+    font-weight: 500;
+}
