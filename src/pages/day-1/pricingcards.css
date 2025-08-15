@@ -1,0 +1,43 @@
+#pricing-cards {
+    background-color: #f4f4f4;
+    font-family: "Geist", sans-serif;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.price-cards {
+    min-width: 353px;
+    border-radius: 37px;
+    background: linear-gradient(180deg, #e3e3e3 0%, #e3e3e3 30%, #FFFFFF 100%);
+}
+
+.price-section {
+    padding: 14px 15px;
+    border-radius: 21px;
+}
+
+.price-card-features {
+    padding: 0 23px;
+}
+
+#price-cards-container {
+    grid-template-columns: repeat(auto-fit, minmax(353px, 360px));
+}
+
+button {
+    background: linear-gradient(180deg, #474747 10%, #1a1a1a 80%, #090909 100%);
+    font-weight: 400;
+}
+
+/* 
+    {
+    background: white;
+    display: flex;
+    border-radius: 70px;
+    padding: 1px 13px;
+    width: fit-content;
+} */
